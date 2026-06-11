@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(Get-ChildItem -Path \"D:\\\\zemma4\" -Recurse -Force)",
+      "Bash(Select-Object FullName, PSIsContainer)",
+      "Bash(Sort-Object FullName)",
+      "Bash(cat)",
+      "Read(//tmp/**)",
+      "Bash(npm run *)",
+      "PowerShell(Out-Null *)",
+      "PowerShell(gh auth *)"
+    ]
+  }
+}
